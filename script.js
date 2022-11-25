@@ -1,5 +1,5 @@
-const shareButton = document.querySelector('.share-button-container');
-const shareInfoContainer = document.querySelector('.share-info-container');
+const shareButton = document.querySelector('.share-button-box');
+const shareInfoContainer = document.querySelector('.share-icons-box');
 const arrowDown = document.querySelector('.arrow-down');
 
 shareButton.addEventListener('click', () => {
