@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/dev-andrewm/Product_preview_card_component)
-- Live Site URL: (https://dev-andrewm.github.io/Product_preview_card_component/)
+- Solution URL: (https://github.com/dev-andrewm/article-preview-component)
+- Live Site URL: (https://dev-andrewm.github.io/article-preview-component/)
 
 ## My process
 
