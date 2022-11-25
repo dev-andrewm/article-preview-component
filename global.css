@@ -18,7 +18,7 @@
     --fs-body: 1.3rem;
 }
 
-/* MOBILE FIRST LAYOUT */
+/* BODY AND MAIN MOBILE FIRST LAYOUT */
 
 body {
     width: 100vw;
@@ -49,6 +49,8 @@ main {
 
     border-radius: 7px;
 }
+
+/* DESKTOP LAYOUT */
 
 @media all and (min-width: 700px) {
     main {

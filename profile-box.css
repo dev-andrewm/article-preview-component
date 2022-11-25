@@ -1,0 +1,32 @@
+.profile-box {
+    margin: 1.4rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.person__image {
+    border-radius: 50%;
+    width: 18%;
+    margin-right: 2.0rem;
+}
+
+.person__info p {
+    margin: 0;
+    line-height: 2.0rem;
+}
+
+.person__info p:first-child {
+    font-weight: 700;
+    color: var(--very-dark-grayish-blue);
+}
+
+@media all and(min-width: 700px) {
+    .profile-box {
+        margin: 1.5rem 3.2rem 1.5rem 3.2rem;
+    }
+}

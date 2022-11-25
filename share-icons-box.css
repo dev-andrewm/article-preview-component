@@ -41,13 +41,6 @@
     visibility: visible;
 }
 
-.ontop {
-    z-index: 1;
-    position: absolute;
-    top: 85%;
-    left: 80%;
-}
-
 @media all and (min-width: 700px) {
     .share-icons-box {
         padding-right: 0;
@@ -66,10 +59,5 @@
 
     .arrowVisible {
         visibility: visible;
-    }
-
-    .ontop {
-        top: auto;
-        position: static;
     }
 }

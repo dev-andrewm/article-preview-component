@@ -1,0 +1,36 @@
+.share-button-box {
+
+    border-radius: 50%;
+    background-color: var(--light-grayish-blue);
+    width: 3.5rem;
+    height: 3.5rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.share-button-box img {
+    width: 60%;
+    height: auto;
+}
+
+.share-button-box:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.ontop {
+    z-index: 1;
+    position: absolute;
+    top: 85%;
+    left: 80%;
+}
+
+@media all and (min-width: 700px) {
+    .ontop {
+        top: auto;
+        position: static;
+    }
+}
